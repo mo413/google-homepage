@@ -1,0 +1,153 @@
+body{
+    font-size: 13;
+    color: black;
+    font-family: arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.sign{
+    background-color:#3478ee;
+    border: 1px solid#4285f4;
+    outline: none;
+    color: white;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 18px;
+    width: 95px;
+    height: 35px;
+
+}
+.sign:hover{
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.headerStuff{
+    float: right;
+    padding-left: 30px;
+    padding-right: 20px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    white-space: nowrap;
+    display: flex;
+    font-size: 13px;
+    line-height: 50px;
+}
+
+.headerStuff a{
+    display: inline-block;
+    padding-right: 20px;
+    color: #000 ;
+}
+
+
+.search{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.searchTxt{
+    width: 550px;
+    background:#fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    outline: none;
+    border-radius: 24px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.searchTxt:hover{
+    box-shadow: 0 0 5px rgb(169, 172, 173);
+}
+
+.googleSearch, .luckySearch{
+    background-color:#f2f2f2;
+    border: 1px solid#f2f2f2;
+    border-radius: 4px;
+    color:#5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.googleSearch:hover, .luckySearch:hover{
+    box-shadow: 0 0 5px rgb(169, 172, 173);
+}
+
+.p1 {
+    font-size: 13px;
+}
+
+.country{
+    line-height: 40px;
+    padding-left: 27px;
+    font-size: 15px;
+    border-bottom: 1px solid  #e4e4e4;
+}
+
+.country a{
+    color: #747171;
+}
+
+
+.settings{
+ margin-right: 30px;
+ float: right;
+white-space: nowrap;
+line-height: 40px;
+visibility: visible;
+font-size: 14px;
+}
+
+.settings a{
+    display: inline-block;
+    padding-left: 27px;
+    color: #747171;
+}
+
+.end {
+float: left;
+margin-right: 30px;
+white-space: nowrap;
+line-height: 40px;
+visibility: visible;
+font-size: 14px;
+}
+
+.end a{
+    display: inline-block;
+    padding-left: 27px;
+    color: #747171;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px solid #e4e4e4;
+    right: 0;
+    width: 100%;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    background-color: #e4e4e48c;
+}
